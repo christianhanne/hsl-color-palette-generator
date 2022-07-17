@@ -20,7 +20,7 @@ export default {
 
       for (let swatches of this.swatchesGrouped) {
         contents += `"${swatches[0][this.mode]}",`;
-        contents += swatches.map(swatch => '"' + HSLToHex(swatch.hue, swatch.lightness, swatch.saturation) + '"').join(',') + "\n";
+        contents += swatches.map(swatch => '"' + HSLToHex(swatch.hue, swatch.saturation, swatch.lightness) + '"').join(',') + "\n";
       }
 
       return contents;

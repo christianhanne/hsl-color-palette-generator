@@ -23,7 +23,7 @@ export default {
       for (let swatches of this.swatchesGrouped) {
         let x = 0;
         for (let swatch of swatches) {
-          let fill = HSLToHex(swatch.hue, swatch.lightness, swatch.saturation);
+          let fill = HSLToHex(swatch.hue, swatch.saturation, swatch.lightness);
           contents += `<rect x="${x * rectWidth}" y="${y * rectHeight}" width="${rectWidth}" height="${rectHeight}" fill="${fill}" />`;
           x++;
         }
