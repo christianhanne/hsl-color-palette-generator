@@ -4,7 +4,7 @@ With this tool you can create a color palette from any given base color. The
 palette is generated using HSL colors. I explain this in detail in an article 
 on my blog. I mainly use this method to create palettes for game development.
 
-[Find out more](https://aureola.codes)
+[Demo](https://aureola.codes/demos/hsl-color-palette-generator)
 
 ## Development
 
